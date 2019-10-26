@@ -12,7 +12,7 @@ import * as DOM from './dom.js'
 import * as OBJ from './object.js'
 export default {...ARRAY,...DOM,id,...OBJ}
 
-import id from './id.js'
+import {id} from './id.js'
 
 /* todo: spin most of this off into a functional, standalone lib
 Ramda replacement (with semver)

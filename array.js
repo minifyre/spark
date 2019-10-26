@@ -1,4 +1,4 @@
-const rand=(max,min=1,seed=Math.random())=>Math.floor(seed*(max-min+1)),// todo: this should be in numbers
+const rand=(max,min=1,seed=Math.random())=>Math.floor(seed*(max-min+1))// todo: this should be in numbers
 
 export const
 //note: helpful for grouping getting canvas context.getImageData() into [[r,g,b,a],...]

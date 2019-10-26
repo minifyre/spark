@@ -24,4 +24,4 @@ curryN=(int,fn,...xs)=>(...ys)=>fn(...xs,...ys.slice(0,int)),
 negate=fn=>(...args)=>!fn(...args),
 passThru=fn=>arg=>(fn(arg),arg),
 
-take=(x,fn)=>(...args)=>fn(...args.slice(x)),//take the first X args
+take=(x,fn)=>(...args)=>fn(...args.slice(x))//take the first X args
